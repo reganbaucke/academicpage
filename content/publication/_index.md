@@ -21,4 +21,3 @@ title = "Publications"
   # Citation style ("apa" or "mla")
   # citation_style = "apa"
 +++
-This is the story of a girl

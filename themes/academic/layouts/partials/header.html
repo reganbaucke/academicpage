@@ -77,9 +77,11 @@
         {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version .) | safeHTML }}
       {{ else }}
         {{ if eq ($scr.Get "light") true }}
-          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-light\">" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\" disabled>" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
         {{ else }}
-          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\">" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-light\" disabled>" (printf $css.highlight.url $css.highlight.version "github") | safeHTML }}
+          {{ printf "<link rel=\"stylesheet\" href=\"%s\" crossorigin=\"anonymous\" title=\"hl-dark\">" (printf $css.highlight.url $css.highlight.version "dracula") | safeHTML }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -137,8 +139,8 @@
   {{ end }}
 
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
-  <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
-  <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
+  <!-- <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}"> -->
+  <!-- <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}"> -->
 
   <link rel="canonical" href="{{ .Permalink }}">
 

@@ -10,10 +10,10 @@ role = "Post Doctoral Researcher"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "École des Ponts", url = "" } ]
+organizations = [ { name = "CERMICS Laboratory at École des Ponts", url = "https://cermics-lab.enpc.fr/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "thlsdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "regan.baucke@enpc.fr"
@@ -22,7 +22,7 @@ email = "regan.baucke@enpc.fr"
 interests = [
   "Stochastic programming",
   "Robust optimisation",
-  "Information Retrieval"
+  "Applications in optimal water reservoir managment and finance"
 ]
 
 # List qualifications (such as academic degrees)
@@ -41,10 +41,10 @@ interests = [
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+# [[social]]
+  # icon = "envelope"
+  # icon_pack = "fas"
+  # link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
 # [[social]]
   # icon = "twitter"
@@ -67,13 +67,13 @@ interests = [
 #   icon = "cv"
 #   icon_pack = "ai"
 #   link = "files/cv.pdf"
-
 +++
 
-I am post doctoral researcher . My PhD was focussed on risk aversion 
-in multistage stochastic optimisation prolems. It can be found here.
+I am a post doctoral researcher in the field of Mathematical Programming and
+Optimisation. Currently, I am part of the optimisation team in the CERMICS
+laboratory at École des Ponts, France. Before then, I completed my PhD in my home
+country of New Zealand; my thesis focused on risk aversion in multistage
+stochastic optimisation problems, and can be found here.
 
-I am part of the optimisation team in the CERMICS at Ecole des Ponts
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My research spans many areas of stochastic optimisation -- in particular, developing
+and analysing algorithms for large scale problems involving uncertainty and multiple stages.

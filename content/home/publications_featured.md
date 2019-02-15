@@ -29,4 +29,3 @@ view = 3
 #  6: Book chapter
 publication_type = "-1"
 +++
-

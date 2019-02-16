@@ -69,11 +69,15 @@ interests = [
 #   link = "files/cv.pdf"
 +++
 
+<!-- # this back slash is for a new line -->
+<!-- \ -->
 I am a post doctoral researcher in the field of Mathematical Programming and
 Optimisation. Currently, I am part of the optimisation team in the CERMICS
 laboratory at École des Ponts, France. Before then, I completed my PhD in my home
 country of New Zealand; my thesis focused on risk aversion in multistage
-stochastic optimisation problems, and can be found here.
+stochastic optimisation problems, and can be found <a href="./files/thesis.pdf" target="_blank">here</a>.
 
 My research spans many areas of stochastic optimisation -- in particular, developing
 and analysing algorithms for large scale problems involving uncertainty and multiple stages.
+
+<!-- stochastic optimisation problems, and can be found [here](./files/thesis.pdf). -->

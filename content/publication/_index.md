@@ -21,3 +21,20 @@ title = "Publications"
   # Citation style ("apa" or "mla")
   # citation_style = "apa"
 +++
+
+<!-- ## Published -->
+
+## Under review
+Downward, A., Dowson, O., & Baucke, R. (Received 2018). _Stochastic dual dynamic programming with stagewise dependent objective uncertainty_.  
+Under review at Operations Research Letters. Pre-print available [here](http://www.optimization-online.org/DB_HTML/2018/02/6454.html).
+
+Baucke, R. (Received 2018). _An algorithm for solving infinite horizon Markov dynamic programmes_.  
+Under review at Operations Research Letters. Pre-print available [here](http://www.optimization-online.org/DB_HTML/2018/04/6565.html).
+
+## Pre-prints
+Baucke, R., Downward, A., & Zakeri, G. (2018). _A deterministic algorithm for solving multistage stochastic minimax dynamic programmes_.  
+Pre-print available [here](http://www.optimization-online.org/DB_HTML/2018/02/6449.html).
+
+## Thesis
+Thesis submitted in fulfilment of PhD in Operations Research at the University of Auckland. Supervised by Assoc. Prof. Golbon Zakeri and Dr. Anthony Downward.  
+[_Risk aversion in multistage stochastic optimisation problems_](.files/thesis.pdf).

@@ -14,7 +14,7 @@ view = 2
 +++
 
 ## Upcoming
-July 29 - August 2, 2019 -- International Conference on Stochastic Programming, Tronheim, Norway. 
+July 29 - August 2, 2019 -- International Conference on Stochastic Programming, Trondheim, Norway. 
 
 March 27-29, 2019 -- Mathematical Methods in Industry and Economics/Computational Management Science, Chemnitz, Germany.
 
